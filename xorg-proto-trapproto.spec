@@ -1,16 +1,15 @@
 Summary:	Trap protocol and ancillary headers
 Summary(pl):	Nag³ówki protoko³u Trap i pomocnicze
 Name:		xorg-proto-trapproto
-Version:	3.4.2
+Version:	3.4.3
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/proto/trapproto-%{version}.tar.bz2
-# Source0-md5:	61645d301d27f0f9a3c3113a451f949c
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/trapproto-%{version}.tar.bz2
+# Source0-md5:	dc33d19c787b05761742cded7d7d221f
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
-BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
