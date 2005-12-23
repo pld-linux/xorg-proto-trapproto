@@ -5,8 +5,8 @@ Version:	3.4.3
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/trapproto-%{version}.tar.bz2
-# Source0-md5:	dc33d19c787b05761742cded7d7d221f
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/trapproto-%{version}.tar.bz2
+# Source0-md5:	3b713239e5e6b269b31cb665563358df
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
