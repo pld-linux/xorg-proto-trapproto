@@ -1,5 +1,5 @@
 Summary:	Trap protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 Trap i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u Trap i pomocnicze
 Name:		xorg-proto-trapproto
 Version:	3.4.3
 Release:	1
@@ -16,20 +16,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Trap protocol and ancillary headers.
 
-%description -l pl
-Nag丑wki protoko硊 Trap i pomocnicze.
+%description -l pl.UTF-8
+Nag艂贸wki protoko艂u Trap i pomocnicze.
 
 %package devel
 Summary:	Trap protocol and ancillary headers
-Summary(pl):	Nag丑wki protoko硊 Trap i pomocnicze
+Summary(pl.UTF-8):   Nag艂贸wki protoko艂u Trap i pomocnicze
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
 Trap protocol and ancillary headers.
 
-%description devel -l pl
-Nag丑wki protoko硊 Trap i pomocnicze.
+%description devel -l pl.UTF-8
+Nag艂贸wki protoko艂u Trap i pomocnicze.
 
 %prep
 %setup -q -n trapproto-%{version}
