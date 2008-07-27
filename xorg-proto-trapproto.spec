@@ -2,7 +2,7 @@ Summary:	Trap protocol and ancillary headers
 Summary(pl.UTF-8):	Nagłówki protokołu Trap i pomocnicze
 Name:		xorg-proto-trapproto
 Version:	3.4.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/trapproto-%{version}.tar.bz2
