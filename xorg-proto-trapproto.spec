@@ -1,5 +1,5 @@
-Summary:	Trap protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Trap i pomocnicze
+Summary:	Trap extension headers
+Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia Trap
 Name:		xorg-proto-trapproto
 Version:	3.4.3
 Release:	2
@@ -14,22 +14,23 @@ BuildRequires:	xorg-util-util-macros
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Trap protocol and ancillary headers.
+Trap extension headers.
 
 %description -l pl.UTF-8
-Nagłówki protokołu Trap i pomocnicze.
+Pliki nagłówkowe rozszerzenia Trap.
 
 %package devel
-Summary:	Trap protocol and ancillary headers
-Summary(pl.UTF-8):	Nagłówki protokołu Trap i pomocnicze
+Summary:	Trap extension headers
+Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia Trap
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
+Requires:	xorg-lib-libXt-devel
 
 %description devel
-Trap protocol and ancillary headers.
+Trap extension headers.
 
 %description devel -l pl.UTF-8
-Nagłówki protokołu Trap i pomocnicze.
+Pliki nagłówkowe rozszerzenia Trap.
 
 %prep
 %setup -q -n trapproto-%{version}
@@ -55,5 +56,5 @@ rm -rf $RPM_BUILD_ROOT
 %files devel
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
-%{_includedir}/X11/extensions/*.h
+%{_includedir}/X11/extensions/xtrap*.h
 %{_pkgconfigdir}/trapproto.pc
