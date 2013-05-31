@@ -2,7 +2,7 @@ Summary:	Trap extension headers
 Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia Trap
 Name:		xorg-proto-trapproto
 Version:	3.4.3
-Release:	2
+Release:	3
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/trapproto-%{version}.tar.bz2
