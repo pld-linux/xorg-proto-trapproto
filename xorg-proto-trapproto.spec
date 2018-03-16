@@ -1,13 +1,14 @@
+# NOTE: now maintained in xorg-proto-xorgproto.spec
 Summary:	Trap extension headers
 Summary(pl.UTF-8):	Pliki nagłówkowe rozszerzenia Trap
 Name:		xorg-proto-trapproto
 Version:	3.4.3
-Release:	3
+Release:	3.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/individual/proto/trapproto-%{version}.tar.bz2
+Source0:	https://xorg.freedesktop.org/releases/individual/proto/trapproto-%{version}.tar.bz2
 # Source0-md5:	3b713239e5e6b269b31cb665563358df
-URL:		http://xorg.freedesktop.org/
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	xorg-util-util-macros
